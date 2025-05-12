@@ -113,7 +113,7 @@ emb_output = model.encode([output])
 
 print(cosine_similarity(emb_input, emb_output))
 ```
-We expect: the text similarity of this example is 0.485654.
+We expect the text similarity of this example to be 0.486. We calculate the average similarity across 10 prompts for each topic. A higher similarity score indicates better performance on that specific topic.
 
 ## Curators
 BenchUFO is created by [Wenhao Wang](https://wangwenhao0716.github.io/) and Professor [Yi Yang](https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN).
