@@ -113,6 +113,7 @@ emb_output = model.encode([output])
 
 print(cosine_similarity(emb_input, emb_output))
 ```
+We expect: the text similarity of this example is 0.485654.
 
 ## Curators
 BenchUFO is created by [Wenhao Wang](https://wangwenhao0716.github.io/) and Professor [Yi Yang](https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN).
