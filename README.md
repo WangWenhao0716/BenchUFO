@@ -69,6 +69,8 @@ Currently, we support **16** recent text-to-video models and observe that they d
   </tbody>
 </table>
 
+## Pipeline
+Here, we give an example of calculating the score (text similarity) for a given prompt. We take the prompt *"kid pretending to be an astronaut under the moon lit sky Painted by Van Gogh"* and [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) as an example. The full prompt list can be downloaded from [prompts]().
 
 
 ## Curators
