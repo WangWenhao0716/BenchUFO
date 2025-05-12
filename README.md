@@ -5,6 +5,9 @@ for Text-to-Video Generation**](https://arxiv.org/abs/2503.01739).
 
 ## Results
 Currently, we support 16 recent text-to-video models and observe that they do not consistently perform well across all user-focused topics.
+<p align="center">
+  <img src="https://github.com/WangWenhao0716/BenchUFO/blob/main/results.png" width="80%">
+</p>
 
 ## Curators
 BenchUFO is created by [Wenhao Wang](https://wangwenhao0716.github.io/) and Professor [Yi Yang](https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN).
