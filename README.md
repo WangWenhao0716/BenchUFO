@@ -76,11 +76,14 @@ Here, we give an example of calculating the score (text similarity) for a given 
 Input the prompt to a text-to-video model to generate a video. Please prepare the environment and download the text-to-video model according to each repository.
  <td><img src="hunyuan.gif"> </td>
 
+### Step 2
+We use a multimodal large language model (here, we choose [QWen2-VL-7B](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct)) to understand and describe the generated video. Please prepare the environment and download the multimodal large language model according to that repository.
+
 ## Curators
 BenchUFO is created by [Wenhao Wang](https://wangwenhao0716.github.io/) and Professor [Yi Yang](https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN).
 
 ## License
-The code for BenchUFO is released under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/deed.en). The benchmarked video generation models and the large vision language model used have their own licenses. 
+The code for BenchUFO is released under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/deed.en). The benchmarked video generation models and the multimodal large language model used have their own licenses. 
 
 ## Citation
 ```
