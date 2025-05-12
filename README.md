@@ -19,7 +19,7 @@ Currently, we support **16** recent text-to-video models and observe that they d
   </thead>
   <tbody>
     <tr>
-      <td>Mira</td><td>0.236</td><td>0.282</td><td>0.508</td><td>0.550</td><td><a href="#">[Link]</a></td>
+      <td>Mira</td><td>0.236</td><td>0.282</td><td>0.508</td><td>0.550</td><td><a href="https://github.com/mira-space/Mira">[Link]</a></td>
     </tr>
     <tr>
       <td>Show-1</td><td>0.266</td><td>0.303</td><td>0.524</td><td>0.564</td><td><a href="#">[Link]</a></td>
