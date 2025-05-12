@@ -72,16 +72,20 @@ Currently, we support **16** recent text-to-video models and observe that they d
 ## Pipeline
 Here, we give an example of calculating the score (text similarity) for a given prompt. We take the prompt *"kid pretending to be an astronaut under the moon lit sky Painted by Van Gogh"* and [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) as an example. The full prompt list can be downloaded from [prompts]().
 
-### Step 1
+### Step 1: Video Generation.
 Input the prompt to a text-to-video model to generate a video. Please prepare the environment and download the text-to-video model according to each repository.
  <td><img src="hunyuan.gif"> </td>
 
-### Step 2
+### Step 2: Captioning.
 We use a multimodal large language model (here, we choose [QWen2-VL-7B](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct)) to understand and describe the generated video. Please prepare the environment and download the multimodal large language model according to that repository.
 
 **Input:** (1) The prompt for describing videos: `Please describe the content of this video in as much detail as possible, including the objects, scenery, animals, characters, and camera movements within the video. Do not include \n in your response. Start the description with the video content directly. Describe the content of the video and the changes that occur, in chronological order.`; and (2) the generated video (in `MP4` format).
 
-**Output:** `xdcdcdcdc`
+**Output:** `The video depicts an astronaut standing on a grassy hill under a bright, full moon. The astronaut is wearing a white spacesuit with a gold visor and a backpack. The scene is set against a starry night sky with a large, glowing moon in the background. The landscape features rolling hills and a few scattered trees. The astronaut appears to be in a relaxed posture, with one arm slightly raised. The video captures the astronaut's movements as they step forward, with the left foot leading and the right arm swinging forward. The background remains static, with the moon and stars providing a serene and otherworldly atmosphere. The overall mood of the video is peaceful and contemplative, highlighting the astronaut's solitary presence in a vast, open space.`
+
+### Step S: Calculating Similarity.
+
+
 
 ## Curators
 BenchUFO is created by [Wenhao Wang](https://wangwenhao0716.github.io/) and Professor [Yi Yang](https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN).
