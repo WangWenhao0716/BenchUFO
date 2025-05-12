@@ -22,49 +22,49 @@ Currently, we support **16** recent text-to-video models and observe that they d
       <td>Mira</td><td>0.236</td><td>0.282</td><td>0.508</td><td>0.550</td><td><a href="https://github.com/mira-space/Mira">[Link]</a></td>
     </tr>
     <tr>
-      <td>Show-1</td><td>0.266</td><td>0.303</td><td>0.524</td><td>0.564</td><td><a href="#">[Link]</a></td>
+      <td>Show-1</td><td>0.266</td><td>0.303</td><td>0.524</td><td>0.564</td><td><a href="https://github.com/showlab/Show-1">[Link]</a></td>
     </tr>
     <tr>
-      <td>LTX-Video</td><td>0.268</td><td>0.310</td><td>0.532</td><td>0.574</td><td><a href="#">[Link]</a></td>
+      <td>LTX-Video</td><td>0.268</td><td>0.310</td><td>0.532</td><td>0.574</td><td><a href="https://github.com/Lightricks/LTX-Video">[Link]</a></td>
     </tr>
     <tr>
-      <td>Open-Sora-Plan</td><td>0.314</td><td>0.361</td><td>0.559</td><td>0.598</td><td><a href="#">[Link]</a></td>
+      <td>Open-Sora-Plan</td><td>0.314</td><td>0.361</td><td>0.559</td><td>0.598</td><td><a href="https://github.com/PKU-YuanGroup/Open-Sora-Plan">[Link]</a></td>
     </tr>
     <tr>
-      <td>TF-T2V</td><td>0.316</td><td>0.359</td><td>0.560</td><td>0.595</td><td><a href="#">[Link]</a></td>
+      <td>TF-T2V</td><td>0.316</td><td>0.359</td><td>0.560</td><td>0.595</td><td><a href="https://github.com/ali-vilab/VGen">[Link]</a></td>
     </tr>
     <tr>
-      <td>Mochi-1</td><td>0.323</td><td>0.367</td><td>0.580</td><td>0.616</td><td><a href="#">[Link]</a></td>
+      <td>Mochi-1</td><td>0.323</td><td>0.367</td><td>0.580</td><td>0.616</td><td><a href="https://github.com/genmoai/mochi">[Link]</a></td>
     </tr>
     <tr>
-      <td>HiGen</td><td>0.352</td><td>0.394</td><td>0.589</td><td>0.625</td><td><a href="#">[Link]</a></td>
+      <td>HiGen</td><td>0.352</td><td>0.394</td><td>0.589</td><td>0.625</td><td><a href="https://github.com/ali-vilab/VGen">[Link]</a></td>
     </tr>
     <tr>
-      <td>Open-Sora</td><td>0.363</td><td>0.409</td><td>0.601</td><td>0.639</td><td><a href="#">[Link]</a></td>
+      <td>Open-Sora</td><td>0.363</td><td>0.409</td><td>0.601</td><td>0.639</td><td><a href="https://github.com/hpcaitech/Open-Sora">[Link]</a></td>
     </tr>
     <tr>
-      <td>Pika</td><td>0.365</td><td>0.404</td><td>0.583</td><td>0.619</td><td><a href="#">[Link]</a></td>
+      <td>Pika</td><td>0.365</td><td>0.404</td><td>0.583</td><td>0.619</td><td><a href="https://pika.art/about">[Link]</a></td>
     </tr>
     <tr>
-      <td>RepVideo</td><td>0.368</td><td>0.402</td><td>0.589</td><td>0.619</td><td><a href="#">[Link]</a></td>
+      <td>RepVideo</td><td>0.368</td><td>0.402</td><td>0.589</td><td>0.619</td><td><a href="https://github.com/Vchitect/RepVideo">[Link]</a></td>
     </tr>
     <tr>
-      <td>T2V-Zero</td><td>0.375</td><td>0.410</td><td>0.586</td><td>0.616</td><td><a href="#">[Link]</a></td>
+      <td>T2V-Zero</td><td>0.375</td><td>0.410</td><td>0.586</td><td>0.616</td><td><a href="https://github.com/Picsart-AI-Research/Text2Video-Zero">[Link]</a></td>
     </tr>
     <tr>
-      <td>CogVideoX</td><td>0.383</td><td>0.419</td><td>0.601</td><td>0.629</td><td><a href="#">[Link]</a></td>
+      <td>CogVideoX</td><td>0.383</td><td>0.419</td><td>0.601</td><td>0.629</td><td><a href="https://github.com/THUDM/CogVideo">[Link]</a></td>
     </tr>
     <tr>
-      <td>Latte-1</td><td>0.384</td><td>0.421</td><td>0.592</td><td>0.636</td><td><a href="#">[Link]</a></td>
+      <td>Latte-1</td><td>0.384</td><td>0.421</td><td>0.592</td><td>0.636</td><td><a href="https://github.com/Vchitect/Latte">[Link]</a></td>
     </tr>
     <tr>
-      <td>HunyuanVideo</td><td>0.388</td><td>0.427</td><td><u>0.612</u></td><td>0.645</td><td><a href="#">[Link]</a></td>
+      <td>HunyuanVideo</td><td>0.388</td><td>0.427</td><td><u>0.612</u></td><td>0.645</td><td><a href="https://github.com/Tencent/HunyuanVideo">[Link]</a></td>
     </tr>
     <tr>
-      <td>LaVie</td><td>0.399</td><td>0.426</td><td>0.595</td><td>0.632</td><td><a href="#">[Link]</a></td>
+      <td>LaVie</td><td>0.399</td><td>0.426</td><td>0.595</td><td>0.632</td><td><a href="https://github.com/Vchitect/LaVie">[Link]</a></td>
     </tr>
     <tr>
-      <td>Pyramidal</td><td>0.400</td><td>0.433</td><td>0.606</td><td><u>0.647</u></td><td><a href="#">[Link]</a></td>
+      <td>Pyramidal</td><td>0.400</td><td>0.433</td><td>0.606</td><td><u>0.647</u></td><td><a href="https://github.com/jy0205/Pyramid-Flow">[Link]</a></td>
     </tr>
   </tbody>
 </table>
