@@ -70,7 +70,7 @@ Currently, we support **16** recent text-to-video models and observe that they d
 </table>
 
 ## Pipeline
-Here, we give an example of calculating the score (text similarity) for a given prompt. We take the prompt *"kid pretending to be an astronaut under the moon lit sky Painted by Van Gogh"* and [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) as an example. The full prompt list can be downloaded from [prompts]().
+Here, we give an example of calculating the score (text similarity) for a given prompt. We take the prompt *"kid pretending to be an astronaut under the moon lit sky Painted by Van Gogh"* and [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) as an example. The full prompt list can be downloaded from [prompts](https://github.com/WangWenhao0716/BenchUFO/blob/main/benchufo_prompts.csv).
 
 ### Step 1: Video Generation.
 Input the prompt to a text-to-video model to generate a video. Please prepare the environment and download the text-to-video model according to each repository.
