@@ -121,7 +121,7 @@ Note: It is reasonable to find the similarity is relatively low because HunyuanV
 BenchUFO is created by [Wenhao Wang](https://wangwenhao0716.github.io/) and Professor [Yi Yang](https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN).
 
 ## License
-The code for BenchUFO is released under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/deed.en). The benchmarked video generation models and the multimodal large language model used have their own licenses. 
+The code for BenchUFO is released under the [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/deed.en). The benchmarked video generation models and the multimodal large language model used have their own licenses. 
 
 ## Citation
 ```
