@@ -84,8 +84,11 @@ We use a multimodal large language model (here, we choose [QWen2-VL-7B](https://
 **Output:** `The video depicts an astronaut standing on a grassy hill under a bright, full moon. The astronaut is wearing a white spacesuit with a gold visor and a backpack. The scene is set against a starry night sky with a large, glowing moon in the background. The landscape features rolling hills and a few scattered trees. The astronaut appears to be in a relaxed posture, with one arm slightly raised. The video captures the astronaut's movements as they step forward, with the left foot leading and the right arm swinging forward. The background remains static, with the moon and stars providing a serene and otherworldly atmosphere. The overall mood of the video is peaceful and contemplative, highlighting the astronaut's solitary presence in a vast, open space.`
 
 ### Step S: Calculating Similarity.
+Finally, we calculate the text similarity between the input prompt and the output description by:
 
-
+```python
+pip install sentence-transformers
+```
 
 ## Curators
 BenchUFO is created by [Wenhao Wang](https://wangwenhao0716.github.io/) and Professor [Yi Yang](https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN).
