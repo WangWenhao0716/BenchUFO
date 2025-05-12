@@ -79,6 +79,10 @@ Input the prompt to a text-to-video model to generate a video. Please prepare th
 ### Step 2
 We use a multimodal large language model (here, we choose [QWen2-VL-7B](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct)) to understand and describe the generated video. Please prepare the environment and download the multimodal large language model according to that repository.
 
+**Input:** (1) The prompt for describing videos: `Please describe the content of this video in as much detail as possible, including the objects, scenery, animals, characters, and camera movements within the video. Do not include \n in your response. Start the description with the video content directly. Describe the content of the video and the changes that occur, in chronological order.`; and (2) the generated video (in `MP4` format).
+
+**Output:** `xdcdcdcdc`
+
 ## Curators
 BenchUFO is created by [Wenhao Wang](https://wangwenhao0716.github.io/) and Professor [Yi Yang](https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN).
 
