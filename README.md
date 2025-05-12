@@ -115,6 +115,8 @@ print(cosine_similarity(emb_input, emb_output))
 ```
 We expect the text similarity of this example to be 0.486. We calculate the average similarity across 10 prompts for each topic. A higher similarity score indicates better performance on that specific topic.
 
+Note: It is reasonable to find the similarity is relatively low because HunyuanVideo fails to generate *kid* and *Van Gogh*.
+
 ## Curators
 BenchUFO is created by [Wenhao Wang](https://wangwenhao0716.github.io/) and Professor [Yi Yang](https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN).
 
