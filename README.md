@@ -87,14 +87,31 @@ We use a multimodal large language model (here, we choose [QWen2-VL-7B](https://
 Finally, we calculate the text similarity between the input prompt and the output description.
 
 Preparing the environment:
-```python
+```
 conda create -n sim python=3.9
-pip install sentence-transformers
+conda activate sim
+pip install sentence-transformers==4.1.0 numpy==1.26
 ```
 Embedding and calculating similarity:
 ```python
 from sentence_transformers import SentenceTransformer
+import numpy as np
+
+def cosine_similarity(embeddings1, embeddings2):
+    dot_product = np.sum(embeddings1 * embeddings2, axis=1)
+    norm1 = np.linalg.norm(embeddings1, axis=1)
+    norm2 = np.linalg.norm(embeddings2, axis=1)
+    return dot_product / (norm1 * norm2)
+
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+
+input = "kid pretending to be an astronaut under the moon lit sky Painted by Van Gogh"
+output = "The video depicts an astronaut standing on a grassy hill under a bright, full moon. The astronaut is wearing a white spacesuit with a gold visor and a backpack. The scene is set against a starry night sky with a large, glowing moon in the background. The landscape features rolling hills and a few scattered trees. The astronaut appears to be in a relaxed posture, with one arm slightly raised. The video captures the astronaut's movements as they step forward, with the left foot leading and the right arm swinging forward. The background remains static, with the moon and stars providing a serene and otherworldly atmosphere. The overall mood of the video is peaceful and contemplative, highlighting the astronaut's solitary presence in a vast, open space."
+
+emb_input = model.encode([input])
+emb_output = model.encode([output])
+
+print(cosine_similarity(emb_input, emb_output))
 ```
 
 ## Curators
