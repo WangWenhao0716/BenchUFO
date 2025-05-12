@@ -4,7 +4,7 @@ The official implementation for **BenchUFO**, which evaluates text-to-video mode
 for Text-to-Video Generation**](https://arxiv.org/abs/2503.01739).
 
 ## Results
-Currently, we support **16** recent text-to-video models and observe that they do not consistently perform well across all user-focused topics
+Currently, we support **16** recent text-to-video models and observe that they do not consistently perform well across all user-focused topics.
 
 <table align="center" border="1" cellspacing="0" cellpadding="6">
   <thead>
