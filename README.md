@@ -111,7 +111,7 @@ output = "The video depicts an astronaut standing on a grassy hill under a brigh
 emb_input = model.encode([input])
 emb_output = model.encode([output])
 
-print(cosine_similarity(emb_input, emb_output))
+print(cosine_similarity(emb_input, emb_output))#[0.485654]
 ```
 We expect the text similarity of this example to be 0.486. We calculate the average similarity across 10 prompts for each topic. A higher similarity score indicates better performance on that specific topic.
 
